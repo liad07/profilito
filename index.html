@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>responsive personal portfolio website design tutorail</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .pie-chart {
+            background:
+                    radial-gradient(
+                            circle closest-side,
+                            transparent 66%,
+                            #111 0
+                    ),
+                    conic-gradient(
+                            #4e79a7 0,
+                            #4e79a7 70%,
+                            #111 0,
+                            #111 100%
+                    );
+            position: relative;
+            width: 500px;
+            min-height: 350px;
+            margin: 0;
+        }
+        .pie-chart h2 {
+            position: absolute;
+            margin: 1rem;
+        }
+        .pie-chart cite {
+            position: absolute;
+            bottom: 0;
+            font-size: 80%;
+            padding: 1rem;
+            color: gray;
+        }
+        .pie-chart figcaption {
+            position: absolute;
+            bottom: 1em;
+            right: 1em;
+            font-size: smaller;
+            text-align: right;
+        }
+        .pie-chart span:after {
+            display: inline-block;
+            content: "";
+            width: 0.8em;
+            height: 0.8em;
+            margin-left: 0.4em;
+            height: 0.8em;
+            border-radius: 0.2em;
+            background: currentColor;
+        }
+    </style>
+</head>
+<body>
+
+<!-- header section starts  -->
+
+<header>
+
+    <div class="user">
+        <img src="img/LK1.png">
+        <h3 class="name">liad kadosh</h3>
+        <p class="post">graphic desgin,web builder,filter creator.</p>
+    </div>
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home">home</a></li>
+            <li><a href="#about">about</a></li>
+            <li><a href="#education">education</a></li>
+            <li><a href="#Graphic-Design">Graphic Design</a></li>
+            <li><a href="#web-builder">Web Builder</a></li>
+            <li><a href="#filter-creator">Filter Creator</a></li>
+            <li><a href="#contact">contact</a></li>
+        </ul>
+    </nav>
+
+</header>
+
+<!-- header section ends -->
+
+<div id="menu" class="fas fa-bars"></div>
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <h3>HI THERE !</h3>
+    <h1>I'M <span>liad kadosh</span></h1>
+    <p>im graphic desgin,web builder,filter creator. and welcome to my profilito web
+    </p>
+    <a href="#about"><button class="btn">about me <i class="fas fa-user"></i></button></a>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- about section starts  -->
+
+<section class="about" id="about">
+
+    <h1 class="heading"> <span>about</span> me </h1>
+
+    <div class="row">
+
+        <div class="info">
+            <h3> <span> name : </span> liad kadosh</h3>
+            <h3> <span> age : </span> 15 </h3>
+            <h3> <span> post : </span>graphic desgin,web builder,filter creator.</h3>
+            <h3> <span> language : </span> hebrew,english </h3>
+            <a href="#"><button class="btn"> download CV <i class="fas fa-download"></i> </button></a>
+        </div>
+
+        <div class="counter">
+
+            <div class="box">
+                <span>3+</span>
+                <h3>years of experience</h3>
+            </div>
+
+            <div class="box">
+                <span>100+</span>
+                <h3>porject completed</h3>
+            </div>
+
+            <div class="box">
+                <span>30+</span>
+                <h3>happy clients</h3>
+            </div>
+
+            <div class="box">
+                <span>10+</span>
+                <h3>awards won</h3>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- about section ends -->
+
+<!-- education section starts  -->
+
+<section class="education" id="education">
+
+    <h1 class="heading"> my <span>education</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <i class="fas fa-graduation-cap"></i>
+            <span>2019</span>
+            <h3>filter creator</h3>
+            <p>start build filters for instagram and snapchat</p>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-graduation-cap"></i>
+            <span>2020</span>
+            <h3>graphic design</h3>
+            <p>start build project on photoshop</p>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-graduation-cap"></i>
+            <span>2019</span>
+            <h3>build the first web</h3>
+            <p>build project only html</p>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-graduation-cap"></i>
+            <span>2022</span>
+            <h3>start 365 project</h3>
+            <p>start build 1 web 1 day (html,css,js)</p>
+        </div>
+
+
+    </div>
+
+</section>
+
+<!-- education section ends -->
+
+<!-- Graphic Design section starts -->
+
+<section class="Graphic-Design" id="Graphic-Design">
+
+    <h1 class="heading"> Graphic <span>Desgin</span> </h1>
+
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="img/GD/lkGH.png" alt="">
+        </div>
+
+
+
+        <div class="box">
+            <img src="img/liadfilters.png" alt="">
+        </div>
+
+        <div class="box">
+            <img src="img/LK.png" alt="">
+        </div>
+
+        <div class="box">
+            <img src="img/witch.png" alt="">
+        </div>
+
+        <div class="nav">
+            <img src="img/GD/lkgraphicdesgin.png" alt="">
+        </div>
+
+    </div>
+
+
+</section>
+
+<!-- Graphic Design section ends -->
+
+<!-- web builder section start -->
+
+<section class="web-builder" id="web-builder">
+    <link rel="stylesheet" href="web.css">
+
+    <h1 class="heading"> web <span>builder</span> </h1>
+    <div class="rt-container">
+        <div class="col-rt-12">
+            <div class="Scriptcontent">
+                <div class="center">
+                <!-- partial:index.partial.html -->
+                <div class="svg-item">
+                    <svg width="100%" height="100%" viewBox="0 0 40 40" class="donut">
+                        <circle class="donut-hole" cx="20" cy="20" r="15.91549430918954" fill="#111"></circle>
+                        <circle class="donut-ring" cx="20" cy="20" r="15.91549430918954" fill="transparent" stroke-width="3.5"></circle>
+                        <circle class="donut-segment donut-segment-2" cx="20" cy="20" r="15.91549430918954" fill="transparent" stroke-width="3.5" stroke-dasharray="70 30" stroke-dashoffset="25"></circle>
+                        <g class="donut-text donut-text-1">
+
+                            <text y="50%" transform="translate(0, 2)">
+                                <tspan x="50%" text-anchor="middle" class="donut-percent">70%</tspan>
+                            </text>
+                            <text y="60%" transform="translate(0, 2)">
+                                <tspan x="50%" text-anchor="middle" class="donut-data">html</tspan>
+                            </text>
+                        </g>
+                    </svg>
+                </div>
+                <div class="svg-item">
+                    <svg width="100%" height="100%" viewBox="0 0 40 40" class="donut">
+                        <circle class="donut-hole" cx="20" cy="20" r="15.91549430918954" fill="#111"></circle>
+                        <circle class="donut-ring" cx="20" cy="20" r="15.91549430918954" fill="transparent" stroke-width="3.5"></circle>
+                        <circle class="donut-segment donut-segment-3" cx="20" cy="20" r="15.91549430918954" fill="transparent" stroke-width="3.5" stroke-dasharray="40 60" stroke-dashoffset="25"></circle>
+                        <g class="donut-text donut-text-2">
+
+                            <text y="50%" transform="translate(0, 2)">
+                                <tspan x="50%" text-anchor="middle" class="donut-percent">40%</tspan>
+                            </text>
+                            <text y="60%" transform="translate(0, 2)">
+                                <tspan x="50%" text-anchor="middle" class="donut-data">css</tspan>
+                            </text>
+                        </g>
+                    </svg>
+                </div>
+
+                <div class="svg-item">
+                    <svg width="100%" height="100%" viewBox="0 0 40 40" class="donut">
+                        <circle class="donut-hole" cx="20" cy="20" r="15.91549430918954" fill="#111"></circle>
+                        <circle class="donut-ring" cx="20" cy="20" r="15.91549430918954" fill="transparent" stroke-width="3.5"></circle>
+                        <circle class="donut-segment donut-segment-4" cx="20" cy="20" r="15.91549430918954" fill="transparent" stroke-width="3.5" stroke-dasharray="20 80" stroke-dashoffset="25"></circle>
+                        <g class="donut-text donut-text-3">
+
+                            <text y="50%" transform="translate(0, 2)">
+                                <tspan x="50%" text-anchor="middle" class="donut-percent">20%</tspan>
+                            </text>
+                            <text y="60%" transform="translate(0, 2)">
+                                <tspan x="50%" text-anchor="middle" class="donut-data">java script</tspan>
+                            </text>
+                        </g>
+                    </svg>
+                </div>
+                <!-- partial -->
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- web builder section ends -->
+
+<!-- filter creator section start -->
+<section class="filter-creator" id="filter-creator">
+    <h1 class="heading"> filter <span>creator</span> </h1>
+    <!--
+    <video controls autoplay controls muted  >
+        <source src="img/filters/nofar.mp4">
+    </video>
+    <img src="foo.gif" alt="This is an animated gif image, but it does not move"/>
+    <img src="foo.gif" alt="This is an animated gif image, but it does not move"/>
+-->
+
+
+</section>
+    <!-- filter creator section ends -->
+
+<!-- contact section starts  -->
+
+<section class="contact" id="contact">
+
+    <h1 class="heading"> <span>contact</span> me </h1>
+
+    <div class="row">
+
+        <div class="content">
+
+            <h3 class="title">contact info</h3>
+
+            <div class="info">
+                <h3> <i class="fas fa-envelope"></i> liad07@gmail.com </h3>
+                <h3> <i class="fas fa-phone"></i> +972 50-950-7172 </h3>
+                <h3> <i class="fas fa-map-marker-alt"></i> rishon lezion, Israel. </h3>
+            </div>
+
+        </div>
+
+        <form action="">
+
+            <input type="text" placeholder="name" class="box">
+            <input type="email" placeholder="email" class="box">
+            <select name="project" class="box" >
+                <option value="...">select</option>
+                <option value="Graphic Desgin">Graphic Desgin</option>
+                <option value="web ">web </option>
+                <option value="filter ">filter </option>
+            </select>
+            <textarea name="" id="" cols="30" rows="10" class="box message" placeholder="message"></textarea>
+            <button type="submit" class="btn"> send <i class="fas fa-paper-plane"></i> </button>
+
+        </form>
+
+    </div>
+
+</section>
+
+<!-- contact section ends -->
+
+
+<!-- scroll top button  -->
+
+<a href="#home" class="top">
+    <img src="images/scroll-top-img.png" alt="">
+</a>
+
+<!-- jquery cdn link  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="script.js"></script>
+
+
+</body>
+</html>
